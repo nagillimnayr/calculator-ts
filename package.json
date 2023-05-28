@@ -54,6 +54,7 @@
     }
   },
   "dependencies": {
-    "immutable": "^4.3.0"
+    "immutable": "^4.3.0",
+    "mathjs": "^11.8.0"
   }
 }
