@@ -57,6 +57,7 @@
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "immutable": "^4.3.0",
+    "katex": "^0.16.7",
     "mathjs": "^11.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
