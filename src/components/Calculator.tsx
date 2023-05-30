@@ -1,5 +1,5 @@
 import React from 'react';
-export default function Calculator(props: { name: string }) {
+export default function Calculator() {
   return (
     <div id="calculator" className="calculator">
       <div id="row1">
