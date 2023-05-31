@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'Calculator',
+  mode: 'development',
   entry: {
     app: './src/index.tsx',
   },
@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Development',
+      title: 'Calculator',
     }),
   ],
   module: {
