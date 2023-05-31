@@ -1,6 +1,10 @@
 import React from 'react';
 
-export default function NumButtonGroup() {
+export default function NumButtonGroup({
+  onClick,
+}: {
+  onClick: (str: string) => void;
+}) {
   return (
     <div id="numButtonGroup" className="calculatorBtnGroup">
       <div id="numRow1" className="numRow">
