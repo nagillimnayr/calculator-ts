@@ -6,13 +6,13 @@
   align-self: center;
   justify-self: center;
   height: fit-content;
-  width: fit-content;
+  width: 60%;
 }
 
 #numButtonGroup {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  max-width: 640px;
 }
 #numButtonGroup .numRow {
   display: flex;
@@ -22,14 +22,14 @@
 #numButtonGroup .numRow button {
   flex: 1;
   aspect-ratio: 2;
+  font-size: 2em;
 }
 
 #displayPanel {
   border: 2px solid black;
   aspect-ratio: 6;
-  padding-left: 3%;
-  padding-right: 3%;
-  font-size: x-large;
+  padding: 0% 3%;
+  font-size: 2.5em;
   text-align: right;
   border-radius: 10px;
 }

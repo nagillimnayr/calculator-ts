@@ -18,6 +18,9 @@ export default function NumButtonGroup({
         <button id="btn9" onClick={onClick}>
           9
         </button>
+        <button id="btn/" onClick={onClick}>
+          /
+        </button>
       </div>
       <div id="numRow2" className="numRow">
         <button id="btn4" onClick={onClick}>
@@ -28,6 +31,9 @@ export default function NumButtonGroup({
         </button>
         <button id="btn6" onClick={onClick}>
           6
+        </button>
+        <button id="btnx" onClick={onClick}>
+          x
         </button>
       </div>
       <div id="numRow3" className="numRow">
@@ -40,6 +46,9 @@ export default function NumButtonGroup({
         <button id="btn3" onClick={onClick}>
           3
         </button>
+        <button id="btn-" onClick={onClick}>
+          -
+        </button>
       </div>
       <div id="numRow4" className="numRow">
         <button id="btn." onClick={onClick}>
@@ -50,6 +59,9 @@ export default function NumButtonGroup({
         </button>
         <button id="btn=" onClick={onClick}>
           =
+        </button>
+        <button id="btn+" onClick={onClick}>
+          +
         </button>
       </div>
     </div>
