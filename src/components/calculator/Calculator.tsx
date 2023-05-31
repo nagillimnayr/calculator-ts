@@ -8,7 +8,7 @@ export default function Calculator() {
 
   const handleClick: MouseEventHandler = (e: React.MouseEvent) => {
     const btn = e.target as HTMLButtonElement;
-    const newExpression = expression + btn.textContent;
+    const newExpression = expression + btn.name;
     setExpression(newExpression);
   };
   return (

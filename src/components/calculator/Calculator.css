@@ -19,7 +19,7 @@
   flex-direction: row;
   flex: 1;
 }
-#numButtonGroup .numRow button {
+.calculatorButton {
   flex: 1;
   aspect-ratio: 2;
   font-size: 2em;
