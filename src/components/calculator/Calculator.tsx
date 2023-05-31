@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { MouseEventHandler, useState } from 'react';
 import NumButtonGroup from './NumButtonGroup';
 import '../../style/calculator.css';
 import DisplayPanel from './DisplayPanel';
@@ -6,8 +6,9 @@ import DisplayPanel from './DisplayPanel';
 export default function Calculator() {
   const [expression, setExpression] = useState<string>('');
 
-  const handleClick = (str: string) => {
-    const newExpression = expression + str;
+  const handleClick: MouseEventHandler = (e: React.MouseEvent) => {
+    const btn = e.target as HTMLButtonElement;
+    const newExpression = expression + btn.textContent;
     setExpression(newExpression);
   };
   return (
