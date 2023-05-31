@@ -1,6 +1,6 @@
 import React, { MouseEventHandler, useState } from 'react';
 import NumButtonGroup from './NumButtonGroup';
-import '../../style/calculator.css';
+import './Calculator.css';
 import DisplayPanel from './DisplayPanel';
 
 export default function Calculator() {

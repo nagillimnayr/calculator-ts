@@ -1,4 +1,5 @@
 import React, { MouseEventHandler } from 'react';
+import './Calculator.css';
 
 export default function NumButtonGroup({
   onClick,

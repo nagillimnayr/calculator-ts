@@ -1,7 +1,12 @@
 #calculator {
   min-width: 320px;
-  max-width: 420px;
+  max-width: 640px;
+  min-height: fit-content;
   margin: auto;
+  align-self: center;
+  justify-self: center;
+  height: fit-content;
+  width: fit-content;
 }
 
 #numButtonGroup {

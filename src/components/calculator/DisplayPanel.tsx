@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../style/calculator.css';
+import './Calculator.css';
 
 export default function DisplayPanel({ displayStr }: { displayStr: string }) {
   return (
