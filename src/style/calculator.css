@@ -1,0 +1,30 @@
+#calculator {
+  min-width: 320px;
+  max-width: 420px;
+  margin: auto;
+}
+
+#numButtonGroup {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+#numButtonGroup .numRow {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+#numButtonGroup .numRow button {
+  flex: 1;
+  aspect-ratio: 2;
+}
+
+#displayPanel {
+  border: 2px solid black;
+  aspect-ratio: 6;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: x-large;
+  text-align: right;
+  border-radius: 10px;
+}
