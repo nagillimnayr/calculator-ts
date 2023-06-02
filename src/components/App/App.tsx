@@ -12,6 +12,8 @@ export default function App() {
         <h1>Calculator App</h1>
         <Latex>{'$\\sqrt{a^2 + b^2}$'}</Latex>
         <hr />
+        <p>{'\\(\\sqrt{a ^ (2 + b) ^ 2}$\\)'}</p>
+        <hr />
       </header>
       <Calculator />
     </div>
