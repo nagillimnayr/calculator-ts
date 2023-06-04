@@ -155,7 +155,7 @@ export default function ButtonPanel({
           {!usingBoxIcon ? <Equal /> : <EqualBox />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="+">
           {!usingBoxIcon ? <Plus /> : <PlusBox />}
         </CalculatorButton>
       </Grid>
