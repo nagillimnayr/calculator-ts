@@ -16,11 +16,13 @@ export default function Calculator() {
 
   return (
     <div id="calculator">
-      <Stack direction={'column'} spacing={5}>
-        <DisplayPanel displayStr={expression} />
+      <div id="calculatorInner">
+        <Stack direction={'column'} spacing={5}>
+          <DisplayPanel displayStr={expression} />
 
-        <ButtonPanel onClick={handleClick} />
-      </Stack>
+          <ButtonPanel onClick={handleClick} />
+        </Stack>
+      </div>
     </div>
   );
 }

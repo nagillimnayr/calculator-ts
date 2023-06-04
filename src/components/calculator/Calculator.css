@@ -10,6 +10,12 @@
   border: 2px solid black;
   padding: 20px;
   border-radius: 10px;
+  aspect-ratio: 1.5;
+}
+
+#calculatorInner {
+  border: 2px solid red;
+  width: fit-content;
 }
 
 #ButtonPanel {
@@ -27,12 +33,15 @@
   aspect-ratio: 2;
   font-size: 2em;
 }
+.calculatorBtn {
+  font-size: 2em;
+}
 
 #displayPanel {
   border: 2px solid black;
-  aspect-ratio: 6;
   padding: 0% 3%;
   font-size: 2.5em;
   text-align: right;
   border-radius: 10px;
+  width: auto;
 }
