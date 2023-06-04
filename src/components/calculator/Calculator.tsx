@@ -2,6 +2,7 @@ import React, { MouseEventHandler, useState } from 'react';
 import ButtonPanel from './ButtonPanel';
 import './Calculator.css';
 import DisplayPanel from './DisplayPanel';
+import Stack from '@mui/material/Stack';
 
 export default function Calculator() {
   const [expression, setExpression] = useState<string>('');
@@ -15,8 +16,11 @@ export default function Calculator() {
 
   return (
     <div id="calculator">
-      <DisplayPanel displayStr={expression} />
-      <ButtonPanel onClick={handleClick} />
+      <Stack direction={'column'} spacing={5}>
+        <DisplayPanel displayStr={expression} />
+
+        <ButtonPanel onClick={handleClick} />
+      </Stack>
     </div>
   );
 }
