@@ -91,131 +91,67 @@ export default function ButtonPanel({
   return (
     <Container id="ButtonPanel" className="calculatorBtnPanel">
       <Grid container columns={4} spacing={2}>
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric7 /> : <Numeric7Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric8 /> : <Numeric8Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric9 /> : <Numeric9Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Division /> : <DivisionBox />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric4 /> : <Numeric4Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric5 /> : <Numeric5Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric6 /> : <Numeric6Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Multiplication /> : <MultiplicationBox />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric1 /> : <Numeric1Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric2 /> : <Numeric2Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric3 /> : <Numeric3Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Minus /> : <MinusBox />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <CircleSmall /> : <Decimal />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric0 /> : <Numeric0Box />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Equal /> : <EqualBox />}
         </CalculatorButton>
 
-        <CalculatorButton
-          onClick={onClick}
-          usingBoxIcon={usingBoxIcon}
-          char="7"
-        >
+        <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Plus /> : <PlusBox />}
         </CalculatorButton>
       </Grid>

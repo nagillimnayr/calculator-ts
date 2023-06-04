@@ -7,12 +7,10 @@ import { SvgIcon, Grid, IconButton, Button, ButtonGroup } from '@mui/material';
 export default function CalculatorButton({
   children,
   char,
-  usingBoxIcon,
   onClick,
 }: {
   children: React.ReactNode;
   char: string;
-  usingBoxIcon: boolean;
   onClick: React.MouseEventHandler;
 }) {
   return (
