@@ -1,6 +1,13 @@
 import React, { MouseEventHandler, useState } from 'react';
 import './Calculator.css';
-import { SvgIcon, Grid, IconButton, Button, ButtonGroup } from '@mui/material';
+import {
+  SvgIcon,
+  Grid,
+  IconButton,
+  Button,
+  ButtonGroup,
+  Container,
+} from '@mui/material';
 import {
   Calculator,
   CalculatorVariant,
@@ -82,7 +89,7 @@ export default function ButtonPanel({
   const [usingBoxIcon, setUsingBoxIcon] = useState<boolean>(true);
 
   return (
-    <div id="ButtonPanel" className="calculatorBtnPanel">
+    <Container id="ButtonPanel" className="calculatorBtnPanel">
       <Grid container columns={4} spacing={2}>
         <CalculatorButton
           onClick={onClick}
@@ -212,6 +219,6 @@ export default function ButtonPanel({
           {!usingBoxIcon ? <Plus /> : <PlusBox />}
         </CalculatorButton>
       </Grid>
-    </div>
+    </Container>
   );
 }
