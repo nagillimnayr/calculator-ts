@@ -95,59 +95,59 @@ export default function ButtonPanel({
           {!usingBoxIcon ? <Numeric7 /> : <Numeric7Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="8">
           {!usingBoxIcon ? <Numeric8 /> : <Numeric8Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="9">
           {!usingBoxIcon ? <Numeric9 /> : <Numeric9Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="/jest.config.js">
           {!usingBoxIcon ? <Division /> : <DivisionBox />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="4">
           {!usingBoxIcon ? <Numeric4 /> : <Numeric4Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="5">
           {!usingBoxIcon ? <Numeric5 /> : <Numeric5Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="6">
           {!usingBoxIcon ? <Numeric6 /> : <Numeric6Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="*">
           {!usingBoxIcon ? <Multiplication /> : <MultiplicationBox />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="1">
           {!usingBoxIcon ? <Numeric1 /> : <Numeric1Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="2">
           {!usingBoxIcon ? <Numeric2 /> : <Numeric2Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="3">
           {!usingBoxIcon ? <Numeric3 /> : <Numeric3Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="-">
           {!usingBoxIcon ? <Minus /> : <MinusBox />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char=".">
           {!usingBoxIcon ? <CircleSmall /> : <Decimal />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="0">
           {!usingBoxIcon ? <Numeric0 /> : <Numeric0Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="7">
+        <CalculatorButton onClick={onClick} char="=">
           {!usingBoxIcon ? <Equal /> : <EqualBox />}
         </CalculatorButton>
 
