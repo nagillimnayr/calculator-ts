@@ -1,5 +1,5 @@
 import React, { MouseEventHandler, useState } from 'react';
-import NumButtonGroup from './ButtonGroup';
+import ButtonPanel from './ButtonGroup';
 import './Calculator.css';
 import DisplayPanel from './DisplayPanel';
 
@@ -17,7 +17,7 @@ export default function Calculator() {
     <div id="calculator">
       <DisplayPanel displayStr={expression} />
       <div id="buttonPanel">
-        <NumButtonGroup onClick={handleClick} />
+        <ButtonPanel onClick={handleClick} />
         <div id="operatorBtns"></div>
       </div>
     </div>

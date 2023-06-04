@@ -78,7 +78,7 @@ import {
   Numeric9Box,
 } from 'mdi-material-ui';
 
-export default function NumButtonGroup({
+export default function ButtonPanel({
   onClick,
 }: {
   onClick: React.MouseEventHandler;
