@@ -36,6 +36,7 @@ export default function CalculatorButton({
           justifyItems: 'center',
           width: 1,
           height: 1,
+          aspectRatio: 1,
         }}
       >
         {children}
