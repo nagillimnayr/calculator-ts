@@ -89,7 +89,11 @@ export default function ButtonPanel({
   const [usingBoxIcon, setUsingBoxIcon] = useState<boolean>(true);
 
   return (
-    <Container id="ButtonPanel" className="calculatorBtnPanel">
+    <Container
+      id="ButtonPanel"
+      className="calculatorBtnPanel"
+      sx={{ maxWidth: '100%' }}
+    >
       <Grid container columns={4} spacing={2}>
         <CalculatorButton onClick={onClick} char="7">
           {!usingBoxIcon ? <Numeric7 /> : <Numeric7Box />}
