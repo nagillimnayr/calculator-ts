@@ -104,64 +104,64 @@ export default function ButtonPanel({
           </IconButton>
         </Grid>
 
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="4" aria-label="four">
             {!usingBoxIcon ? <Numeric4 /> : <Numeric4Box />}
           </IconButton>
         </Grid>
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="5" aria-label="five">
             {!usingBoxIcon ? <Numeric5 /> : <Numeric5Box />}
           </IconButton>
         </Grid>
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="6" aria-label="six">
             {!usingBoxIcon ? <Numeric6 /> : <Numeric6Box />}
           </IconButton>
         </Grid>
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="*" aria-label="times">
             {!usingBoxIcon ? <Multiplication /> : <MultiplicationBox />}
           </IconButton>
         </Grid>
 
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="1" aria-label="one">
             {!usingBoxIcon ? <Numeric1 /> : <Numeric1Box />}
           </IconButton>
         </Grid>
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="2" aria-label="two">
             {!usingBoxIcon ? <Numeric2 /> : <Numeric2Box />}
           </IconButton>
         </Grid>
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="3" aria-label="three">
             {!usingBoxIcon ? <Numeric3 /> : <Numeric3Box />}
           </IconButton>
         </Grid>
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="-" aria-label="minus">
             {!usingBoxIcon ? <Minus /> : <MinusBox />}
           </IconButton>
         </Grid>
 
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="." aria-label="dot">
             {!usingBoxIcon ? <CircleSmall /> : <Decimal />}
           </IconButton>
         </Grid>
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="0" aria-label="zero">
             {!usingBoxIcon ? <Numeric0 /> : <Numeric0Box />}
           </IconButton>
         </Grid>
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="=" aria-label="equals">
             {!usingBoxIcon ? <Equal /> : <EqualBox />}
           </IconButton>
         </Grid>
-        <Grid item>
+        <Grid item xs={1}>
           <IconButton onClick={onClick} name="+" aria-label="plus">
             {!usingBoxIcon ? <Plus /> : <PlusBox />}
           </IconButton>
