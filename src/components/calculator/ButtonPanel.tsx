@@ -87,25 +87,29 @@ export default function ButtonPanel({
   return (
     <div id="ButtonPanel" className="calculatorBtnPanel">
       <Grid2 container columns={4}>
-        <IconButton onClick={onClick} name="7" />
-        <IconButton onClick={onClick} name="8" />
-        <IconButton onClick={onClick} name="9" />
-        <IconButton onClick={onClick} name="/" />
+        <IconButton onClick={onClick} name="7" aria-label="seven"></IconButton>
+        <IconButton onClick={onClick} name="8" aria-label="eight"></IconButton>
+        <IconButton onClick={onClick} name="9" aria-label="nine"></IconButton>
+        <IconButton
+          onClick={onClick}
+          name="/"
+          aria-label="divide-by"
+        ></IconButton>
 
-        <IconButton onClick={onClick} name="4" />
-        <IconButton onClick={onClick} name="5" />
-        <IconButton onClick={onClick} name="6" />
-        <IconButton onClick={onClick} name="*" />
+        <IconButton onClick={onClick} name="4" aria-label="four"></IconButton>
+        <IconButton onClick={onClick} name="5" aria-label="five"></IconButton>
+        <IconButton onClick={onClick} name="6" aria-label="six"></IconButton>
+        <IconButton onClick={onClick} name="*" aria-label="times"></IconButton>
 
-        <IconButton onClick={onClick} name="1" />
-        <IconButton onClick={onClick} name="2" />
-        <IconButton onClick={onClick} name="3" />
-        <IconButton onClick={onClick} name="-" />
+        <IconButton onClick={onClick} name="1" aria-label="one"></IconButton>
+        <IconButton onClick={onClick} name="2" aria-label="two"></IconButton>
+        <IconButton onClick={onClick} name="3" aria-label="three"></IconButton>
+        <IconButton onClick={onClick} name="-" aria-label="minus"></IconButton>
 
-        <IconButton onClick={onClick} name="." />
-        <IconButton onClick={onClick} name="0" />
-        <IconButton onClick={onClick} name="=" />
-        <IconButton onClick={onClick} name="+" />
+        <IconButton onClick={onClick} name="." aria-label="dot"></IconButton>
+        <IconButton onClick={onClick} name="0" aria-label="zero"></IconButton>
+        <IconButton onClick={onClick} name="=" aria-label="equals"></IconButton>
+        <IconButton onClick={onClick} name="+" aria-label="plus"></IconButton>
       </Grid2>
     </div>
   );
