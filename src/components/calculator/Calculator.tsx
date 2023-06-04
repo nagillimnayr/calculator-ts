@@ -15,14 +15,14 @@ export default function Calculator() {
   };
 
   return (
-    <div id="calculator">
-      <div id="calculatorInner">
+    <Container id="calculator">
+      <Container id="calculatorInner">
         <Stack direction={'column'} spacing={5}>
           <DisplayPanel displayStr={expression} />
 
           <ButtonPanel onClick={handleClick} />
         </Stack>
-      </div>
-    </div>
+      </Container>
+    </Container>
   );
 }
