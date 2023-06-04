@@ -17,7 +17,7 @@ export default function Calculator() {
 
   return (
     <Container id="calculator">
-      <Container id="calculatorInner">
+      <Container id="calculatorInner" disableGutters>
         <Stack direction={'column'} spacing={5}>
           <DisplayPanel displayStr={expression} />
 
