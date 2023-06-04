@@ -16,9 +16,7 @@ export default function Calculator() {
   return (
     <div id="calculator">
       <DisplayPanel displayStr={expression} />
-      <div id="buttonPanel">
-        <ButtonPanel onClick={handleClick} />
-      </div>
+      <ButtonPanel onClick={handleClick} />
     </div>
   );
 }
