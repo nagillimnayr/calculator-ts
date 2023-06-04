@@ -1,7 +1,7 @@
-import add from '../arithmetic/add';
-import divide from '../arithmetic/divide';
-import multiply from '../arithmetic/multiply';
-import subtract from '../arithmetic/subtract';
+import add from '../functions/arithmetic/add';
+import divide from '../functions/arithmetic/divide';
+import multiply from '../functions/arithmetic/multiply';
+import subtract from '../functions/arithmetic/subtract';
 
 /**
  * @description The Expression class represents a mathematical
