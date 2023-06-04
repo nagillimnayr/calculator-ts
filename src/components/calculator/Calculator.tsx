@@ -3,6 +3,7 @@ import ButtonPanel from './ButtonPanel';
 import './Calculator.css';
 import DisplayPanel from './DisplayPanel';
 import Stack from '@mui/material/Stack';
+import { Container } from '@mui/material';
 
 export default function Calculator() {
   const [expression, setExpression] = useState<string>('');
