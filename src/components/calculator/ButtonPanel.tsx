@@ -107,7 +107,7 @@ export default function ButtonPanel({
           {!usingBoxIcon ? <Numeric9 /> : <Numeric9Box />}
         </CalculatorButton>
 
-        <CalculatorButton onClick={onClick} char="/jest.config.js">
+        <CalculatorButton onClick={onClick} char="/">
           {!usingBoxIcon ? <Division /> : <DivisionBox />}
         </CalculatorButton>
 
