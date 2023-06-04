@@ -18,7 +18,6 @@ export default function Calculator() {
       <DisplayPanel displayStr={expression} />
       <div id="buttonPanel">
         <ButtonPanel onClick={handleClick} />
-        <div id="operatorBtns"></div>
       </div>
     </div>
   );
