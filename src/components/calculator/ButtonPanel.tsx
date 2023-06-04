@@ -9,6 +9,8 @@ import {
   Container,
 } from '@mui/material';
 import {
+  Backspace,
+  BackspaceOutline,
   Calculator,
   CalculatorVariant,
   ChartBellCurve,
