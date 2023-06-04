@@ -104,83 +104,149 @@ export default function ButtonPanel({
           ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="9" aria-label="nine" size="large">
+          <Button
+            onClick={onClick}
+            id="9"
+            aria-label="nine"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Numeric9 /> : <Numeric9Box />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton
+          <Button
             onClick={onClick}
             id="/"
             aria-label="divide-by"
             size="large"
-          >
+            variant="contained"
             startIcon={!usingBoxIcon ? <Division /> : <DivisionBox />}
-          </IconButton>
+          ></Button>
         </Grid>
 
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="4" aria-label="four" size="large">
+          <Button
+            onClick={onClick}
+            id="4"
+            aria-label="four"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Numeric4 /> : <Numeric4Box />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="5" aria-label="five" size="large">
+          <Button
+            onClick={onClick}
+            id="5"
+            aria-label="five"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Numeric5 /> : <Numeric5Box />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="6" aria-label="six" size="large">
+          <Button
+            onClick={onClick}
+            id="6"
+            aria-label="six"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Numeric6 /> : <Numeric6Box />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="*" aria-label="times" size="large">
-            startIcon=
-            {!usingBoxIcon ? <Multiplication /> : <MultiplicationBox />}
-          </IconButton>
+          <Button
+            onClick={onClick}
+            id="*"
+            aria-label="times"
+            size="large"
+            variant="contained"
+            startIcon={
+              !usingBoxIcon ? <Multiplication /> : <MultiplicationBox />
+            }
+          ></Button>
         </Grid>
 
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="1" aria-label="one" size="large">
+          <Button
+            onClick={onClick}
+            id="1"
+            aria-label="one"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Numeric1 /> : <Numeric1Box />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="2" aria-label="two" size="large">
+          <Button
+            onClick={onClick}
+            id="2"
+            aria-label="two"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Numeric2 /> : <Numeric2Box />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="3" aria-label="three" size="large">
+          <Button
+            onClick={onClick}
+            id="3"
+            aria-label="three"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Numeric3 /> : <Numeric3Box />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="-" aria-label="minus" size="large">
+          <Button
+            onClick={onClick}
+            id="-"
+            aria-label="minus"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Minus /> : <MinusBox />}
-          </IconButton>
+          ></Button>
         </Grid>
 
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="." aria-label="dot" size="large">
+          <Button
+            onClick={onClick}
+            id="."
+            aria-label="dot"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <CircleSmall /> : <Decimal />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="0" aria-label="zero" size="large">
+          <Button
+            onClick={onClick}
+            id="0"
+            aria-label="zero"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Numeric0 /> : <Numeric0Box />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="=" aria-label="equals" size="large">
+          <Button
+            onClick={onClick}
+            id="="
+            aria-label="equals"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Equal /> : <EqualBox />}
-          </IconButton>
+          ></Button>
         </Grid>
         <Grid item xs={1}>
-          <IconButton onClick={onClick} id="+" aria-label="plus" size="large">
+          <Button
+            onClick={onClick}
+            id="+"
+            aria-label="plus"
+            size="large"
+            variant="contained"
             startIcon={!usingBoxIcon ? <Plus /> : <PlusBox />}
-          </IconButton>
+          ></Button>
         </Grid>
       </Grid>
     </div>
