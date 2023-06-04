@@ -9,7 +9,7 @@ export default function Calculator() {
   // Add character to expression string on button click
   const handleClick: MouseEventHandler = (e: React.MouseEvent) => {
     const btn = e.target as HTMLButtonElement;
-    const newExpression = expression + btn.name;
+    const newExpression = expression + btn.id;
     setExpression(newExpression);
   };
 
