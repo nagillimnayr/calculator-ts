@@ -70,6 +70,7 @@
     "katex": "^0.16.7",
     "mathjax": "^3.2.2",
     "mathjs": "^11.8.0",
+    "mdi-material-ui": "^7.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-latex-next": "^2.2.0",
