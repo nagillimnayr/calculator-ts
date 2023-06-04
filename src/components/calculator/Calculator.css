@@ -9,12 +9,12 @@
   width: 60%;
 }
 
-#numButtonGroup {
+#ButtonPanel {
   display: flex;
   flex-direction: column;
   max-width: 640px;
 }
-#numButtonGroup .numRow {
+#ButtonPanel .btnRow {
   display: flex;
   flex-direction: row;
   flex: 1;

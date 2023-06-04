@@ -1,5 +1,5 @@
 import React, { MouseEventHandler, useState } from 'react';
-import ButtonPanel from './ButtonGroup';
+import ButtonPanel from './ButtonPanel';
 import './Calculator.css';
 import DisplayPanel from './DisplayPanel';
 

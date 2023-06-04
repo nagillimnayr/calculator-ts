@@ -8,7 +8,7 @@ import FunctionsIcon from '@mui/icons-material/Functions'; /* Sigma */
 import IsoIcon from '@mui/icons-material/Iso'; /* +/- */
 import PercentIcon from '@mui/icons-material/Percent'; /* % */
 import PriorityHighIcon from '@mui/icons-material/PriorityHigh'; /* ! */
-import { SvgIcon, Grid, Button, ButtonGroup } from '@mui/material';
+import { SvgIcon, Grid, IconButton, Button, ButtonGroup } from '@mui/material';
 import {
   Calculator,
   CalculatorVariant,
@@ -77,6 +77,7 @@ import {
   Numeric9,
   Numeric9Box,
 } from 'mdi-material-ui';
+import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
 
 export default function ButtonPanel({
   onClick,
@@ -84,31 +85,28 @@ export default function ButtonPanel({
   onClick: React.MouseEventHandler;
 }) {
   return (
-    <div id="numButtonGroup" className="calculatorBtnGroup">
-      <div id="numRow1" className="numRow">
-        <CalculatorButton onClick={onClick} char="7" />
-        <CalculatorButton onClick={onClick} char="8" />
-        <CalculatorButton onClick={onClick} char="9" />
-        <CalculatorButton onClick={onClick} char="/" />
-      </div>
-      <div id="numRow2" className="numRow">
-        <CalculatorButton onClick={onClick} char="4" />
-        <CalculatorButton onClick={onClick} char="5" />
-        <CalculatorButton onClick={onClick} char="6" />
-        <CalculatorButton onClick={onClick} char="*" />
-      </div>
-      <div id="numRow3" className="numRow">
-        <CalculatorButton onClick={onClick} char="1" />
-        <CalculatorButton onClick={onClick} char="2" />
-        <CalculatorButton onClick={onClick} char="3" />
-        <CalculatorButton onClick={onClick} char="-" />
-      </div>
-      <div id="numRow4" className="numRow">
-        <CalculatorButton onClick={onClick} char="." />
-        <CalculatorButton onClick={onClick} char="0" />
-        <CalculatorButton onClick={onClick} char="=" />
-        <CalculatorButton onClick={onClick} char="+" />
-      </div>
+    <div id="ButtonPanel" className="calculatorBtnPanel">
+      <Grid2 container columns={4}>
+        <IconButton onClick={onClick} name="7" />
+        <IconButton onClick={onClick} name="8" />
+        <IconButton onClick={onClick} name="9" />
+        <IconButton onClick={onClick} name="/" />
+
+        <IconButton onClick={onClick} name="4" />
+        <IconButton onClick={onClick} name="5" />
+        <IconButton onClick={onClick} name="6" />
+        <IconButton onClick={onClick} name="*" />
+
+        <IconButton onClick={onClick} name="1" />
+        <IconButton onClick={onClick} name="2" />
+        <IconButton onClick={onClick} name="3" />
+        <IconButton onClick={onClick} name="-" />
+
+        <IconButton onClick={onClick} name="." />
+        <IconButton onClick={onClick} name="0" />
+        <IconButton onClick={onClick} name="=" />
+        <IconButton onClick={onClick} name="+" />
+      </Grid2>
     </div>
   );
 }
