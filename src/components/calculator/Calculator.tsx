@@ -6,7 +6,7 @@ import Stack from '@mui/material/Stack';
 import { Container } from '@mui/material';
 
 export default function Calculator() {
-  const [expression, setExpression] = useState<string>('');
+  const [expression, setExpression] = useState<string>(''); // Math expression
 
   // Add character to expression string on button click
   const handleClick: MouseEventHandler = (e: React.MouseEvent) => {
