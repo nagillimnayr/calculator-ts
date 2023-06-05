@@ -95,7 +95,8 @@ export default function ButtonPanel({
     <Container
       id="ButtonPanel"
       className="calculatorBtnPanel"
-      sx={{ maxWidth: '100%' }}
+      disableGutters
+      sx={{ maxWidth: '100%', padding: 0, margin: 0 }}
     >
       <Grid container columns={4} spacing={2}>
         <CalculatorButton onClick={onClick} char="7">
