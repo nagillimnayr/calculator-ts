@@ -19,7 +19,7 @@ export default function Calculator() {
     <Container id="calculator">
       <Container id="calculatorInner" disableGutters>
         <Stack direction={'column'} spacing={5}>
-          <DisplayPanel displayStr={expression} />
+          <DisplayPanel expression={expression} setExpression={setExpression} />
 
           <ButtonPanel onClick={handleClick} />
         </Stack>
