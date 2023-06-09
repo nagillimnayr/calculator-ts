@@ -33,8 +33,18 @@ export default function DisplayPanel({
               <CloseCircle />
             </IconButton>
           ),
+          sx: {
+            name: 'text-field',
+            fontSize: '3rem',
+            padding: '0',
+            margin: '0',
+          },
         }}
-        sx={{ fontSize: '2em' }}
+        inputProps={{
+          sx: {
+            textAlign: 'right',
+          },
+        }}
       ></TextField>
     </Container>
   );

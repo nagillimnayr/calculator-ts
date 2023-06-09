@@ -39,11 +39,18 @@
 }
 
 #displayPanel {
-  border: 2px solid black;
-  padding: 0% 3%;
-  font-size: 2.5em;
-  text-align: right;
+  /* border: 2px solid black; */
+  padding: 0;
   border-radius: 10px;
   width: auto;
   margin: 0;
+}
+
+/* #textField {
+  text-align: right;
+} */
+
+button > svg {
+  width: 80%;
+  aspect-ratio: 1;
 }

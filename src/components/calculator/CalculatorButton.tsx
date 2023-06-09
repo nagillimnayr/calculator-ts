@@ -2,17 +2,23 @@ import React from 'react';
 import './Calculator.css';
 import 'katex/dist/katex.css';
 import katex from 'katex';
-import { SvgIcon, Grid, IconButton, Button, ButtonGroup } from '@mui/material';
+import {
+  SvgIcon,
+  Grid,
+  IconButton,
+  Button,
+  ButtonGroup,
+  SvgIconTypeMap,
+} from '@mui/material';
+import { OverridableComponent } from '@mui/material/OverridableComponent';
 
-export default function CalculatorButton({
-  children,
-  char,
-  onClick,
-}: {
+type BtnProps = {
   children: React.ReactNode;
   char: string;
   onClick: React.MouseEventHandler;
-}) {
+};
+
+export default function CalculatorButton(props: BtnProps) {
   return (
     <Grid
       item
@@ -23,9 +29,9 @@ export default function CalculatorButton({
       justifyContent={'center'}
     >
       <Button
-        onClick={onClick}
-        id={char}
-        aria-label={char}
+        onClick={props.onClick}
+        id={props.char}
+        aria-label={props.char}
         size="large"
         variant="contained"
         sx={{
@@ -37,7 +43,7 @@ export default function CalculatorButton({
           aspectRatio: 1,
         }}
       >
-        {children}
+        {props.children}
       </Button>
     </Grid>
   );
